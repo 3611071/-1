@@ -1,0 +1,40 @@
+body {
+ font: 10pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+ background: #222222; /* Цвет фона */
+}
+h2 {
+ font: 10pt Impact; /* Шрифт на веб-странице */
+ font-size: 1.2em; /* Размер шрифта */
+ color: #FF4500; /* Цвет текста */
+ margin-top: 0; /* Отступ сверху */
+}
+#container {
+ width: 700px; /* Ширина слоя */
+ margin: 0 auto; /* Выравнивание по центру */
+ background: #E6E6FA; /* Цвет фона левой колонки */
+}
+header {
+ font: 10pt Georgia;
+ font-size: 1.2em; /* Размер текста */
+ text-align: center; /* Выравнивание по центру */
+ padding: 1px; /* Отступы вокруг текста */
+ background: #BC8F8F; /* Цвет фона шапки */
+ color: #ffe; /* Цвет текста */
+}
+nav {
+ margin-top: 10px;
+ width: 110px; /* Ширина слоя */
+ padding: 0 20px; /* Отступы вокруг текста */
+ float: left; /* Обтекание по правому краю */
+}
+article {
+ margin-left: 150px; /* Отступ слева */
+ padding: 10px; /* Поля вокруг текста */
+ background: #FFF8DC; /* Цвет фона правой колонки */
+}
+#footer {
+ background: #8fa09b; /* Цвет фона подвала */
+ color: #fff; /* Цвет текста */
+ padding: 5px; /* Отступы вокруг текста */
+ clear: left; /* Отменяем действие float */
+}
